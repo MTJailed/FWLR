@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D2CF6742006A206007A1892 /* FWTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2CF6732006A205007A1892 /* FWTVController.m */; };
+		1D2CF6772006A26D007A1892 /* LTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2CF6762006A26C007A1892 /* LTVController.m */; };
+		1D2CF67A2006A53A007A1892 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2CF6792006A53A007A1892 /* MainViewController.m */; };
+		1D41D8D920069670001B06D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D41D8D820069670001B06D2 /* AppDelegate.m */; };
+		1D41D8DC20069670001B06D2 /* PFWTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D41D8DB20069670001B06D2 /* PFWTVController.m */; };
+		1D41D8E220069670001B06D2 /* Lecture_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D41D8E020069670001B06D2 /* Lecture_2.xcdatamodeld */; };
+		1D41D8E420069670001B06D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D41D8E320069670001B06D2 /* Assets.xcassets */; };
+		1D41D8E720069670001B06D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D41D8E520069670001B06D2 /* LaunchScreen.storyboard */; };
+		1D41D8EA20069670001B06D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D41D8E920069670001B06D2 /* main.m */; };
+		1D41D8F420069671001B06D2 /* Lecture_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D41D8F320069671001B06D2 /* Lecture_2Tests.m */; };
+		1D41D8FF20069671001B06D2 /* Lecture_2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D41D8FE20069671001B06D2 /* Lecture_2UITests.m */; };
+		1D41D9122006998D001B06D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D41D9112006998D001B06D2 /* Main.storyboard */; };
+		1D643CB0200D72F20028379A /* REMethodTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D643CAF200D72F20028379A /* REMethodTVController.m */; };
+		1D643CB32010E5900028379A /* REPropertyTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D643CB22010E5900028379A /* REPropertyTVController.m */; };
+		1D643CB62010E7B90028379A /* ClassTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D643CB42010E7B80028379A /* ClassTVController.m */; };
+		1D643CBA201107A50028379A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D643CB9201107A50028379A /* AudioToolbox.framework */; };
+		1DDDE4A1200CFFCD0014FB59 /* REClassTVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDE49F200CFFCD0014FB59 /* REClassTVController.m */; };
+		1DDDE4A4200D08540014FB59 /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDDE4A3200D08540014FB59 /* APIManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D41D8F020069671001B06D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D41D8CC20069670001B06D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D41D8D320069670001B06D2;
+			remoteInfo = "Lecture 2";
+		};
+		1D41D8FB20069671001B06D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D41D8CC20069670001B06D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D41D8D320069670001B06D2;
+			remoteInfo = "Lecture 2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D2CF6722006A205007A1892 /* FWTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FWTVController.h; sourceTree = "<group>"; };
+		1D2CF6732006A205007A1892 /* FWTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FWTVController.m; sourceTree = "<group>"; };
+		1D2CF6752006A26C007A1892 /* LTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTVController.h; sourceTree = "<group>"; };
+		1D2CF6762006A26C007A1892 /* LTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTVController.m; sourceTree = "<group>"; };
+		1D2CF6782006A53A007A1892 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1D2CF6792006A53A007A1892 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1D41D8D420069670001B06D2 /* FWLR Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FWLR Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D41D8D720069670001B06D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D41D8D820069670001B06D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D41D8DA20069670001B06D2 /* PFWTVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PFWTVController.h; sourceTree = "<group>"; };
+		1D41D8DB20069670001B06D2 /* PFWTVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PFWTVController.m; sourceTree = "<group>"; };
+		1D41D8E120069670001B06D2 /* Lecture_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lecture_2.xcdatamodel; sourceTree = "<group>"; };
+		1D41D8E320069670001B06D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D41D8E620069670001B06D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D41D8E820069670001B06D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D41D8E920069670001B06D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D41D8EF20069671001B06D2 /* FWLR ToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FWLR ToolTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D41D8F320069671001B06D2 /* Lecture_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lecture_2Tests.m; sourceTree = "<group>"; };
+		1D41D8F520069671001B06D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D41D8FA20069671001B06D2 /* FWLR ToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FWLR ToolUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D41D8FE20069671001B06D2 /* Lecture_2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lecture_2UITests.m; sourceTree = "<group>"; };
+		1D41D90020069671001B06D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D41D9112006998D001B06D2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1D643CAE200D72F20028379A /* REMethodTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMethodTVController.h; sourceTree = "<group>"; };
+		1D643CAF200D72F20028379A /* REMethodTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMethodTVController.m; sourceTree = "<group>"; };
+		1D643CB12010E5900028379A /* REPropertyTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REPropertyTVController.h; sourceTree = "<group>"; };
+		1D643CB22010E5900028379A /* REPropertyTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REPropertyTVController.m; sourceTree = "<group>"; };
+		1D643CB42010E7B80028379A /* ClassTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassTVController.m; sourceTree = "<group>"; };
+		1D643CB52010E7B80028379A /* ClassTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassTVController.h; sourceTree = "<group>"; };
+		1D643CB7201107A40028379A /* FWLR Tool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "FWLR Tool.entitlements"; sourceTree = "<group>"; };
+		1D643CB9201107A50028379A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1DDDE49F200CFFCD0014FB59 /* REClassTVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REClassTVController.m; sourceTree = "<group>"; };
+		1DDDE4A0200CFFCD0014FB59 /* REClassTVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REClassTVController.h; sourceTree = "<group>"; };
+		1DDDE4A2200D08540014FB59 /* APIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		1DDDE4A3200D08540014FB59 /* APIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D41D8D120069670001B06D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D643CBA201107A50028379A /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41D8EC20069671001B06D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41D8F720069671001B06D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D41D8CB20069670001B06D2 = {
+			isa = PBXGroup;
+			children = (
+				1D643CB7201107A40028379A /* FWLR Tool.entitlements */,
+				1D41D8D620069670001B06D2 /* Lecture 2 */,
+				1D41D8F220069671001B06D2 /* Lecture 2Tests */,
+				1D41D8FD20069671001B06D2 /* Lecture 2UITests */,
+				1D41D8D520069670001B06D2 /* Products */,
+				1D643CB8201107A50028379A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D41D8D520069670001B06D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D8D420069670001B06D2 /* FWLR Tool.app */,
+				1D41D8EF20069671001B06D2 /* FWLR ToolTests.xctest */,
+				1D41D8FA20069671001B06D2 /* FWLR ToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D41D8D620069670001B06D2 /* Lecture 2 */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D90F200696D3001B06D2 /* Classes */,
+				1D643CAD200D72F20028379A /* Views */,
+				1D41D90C20069690001B06D2 /* Controllers */,
+				1D41D90E200696B6001B06D2 /* Supporting Files */,
+			);
+			path = "Lecture 2";
+			sourceTree = "<group>";
+		};
+		1D41D8F220069671001B06D2 /* Lecture 2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D8F320069671001B06D2 /* Lecture_2Tests.m */,
+				1D41D8F520069671001B06D2 /* Info.plist */,
+			);
+			path = "Lecture 2Tests";
+			sourceTree = "<group>";
+		};
+		1D41D8FD20069671001B06D2 /* Lecture 2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D8FE20069671001B06D2 /* Lecture_2UITests.m */,
+				1D41D90020069671001B06D2 /* Info.plist */,
+			);
+			path = "Lecture 2UITests";
+			sourceTree = "<group>";
+		};
+		1D41D90C20069690001B06D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D643CAC200D72B70028379A /* Background */,
+				1D643CAB200D728F0028379A /* Reverse Engineering */,
+				1D643CAA200D72430028379A /* Frameworks and Libraries */,
+				1D643CA9200D722A0028379A /* MainViewController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D41D90E200696B6001B06D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D8E320069670001B06D2 /* Assets.xcassets */,
+				1D41D8E820069670001B06D2 /* Info.plist */,
+				1D41D8E920069670001B06D2 /* main.m */,
+				1D41D8E020069670001B06D2 /* Lecture_2.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D41D90F200696D3001B06D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1DDDE4A2200D08540014FB59 /* APIManager.h */,
+				1DDDE4A3200D08540014FB59 /* APIManager.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1D643CA9200D722A0028379A /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D2CF6782006A53A007A1892 /* MainViewController.h */,
+				1D2CF6792006A53A007A1892 /* MainViewController.m */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		1D643CAA200D72430028379A /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D8DA20069670001B06D2 /* PFWTVController.h */,
+				1D41D8DB20069670001B06D2 /* PFWTVController.m */,
+				1D2CF6722006A205007A1892 /* FWTVController.h */,
+				1D2CF6732006A205007A1892 /* FWTVController.m */,
+				1D2CF6752006A26C007A1892 /* LTVController.h */,
+				1D2CF6762006A26C007A1892 /* LTVController.m */,
+				1D643CB52010E7B80028379A /* ClassTVController.h */,
+				1D643CB42010E7B80028379A /* ClassTVController.m */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1D643CAB200D728F0028379A /* Reverse Engineering */ = {
+			isa = PBXGroup;
+			children = (
+				1DDDE4A0200CFFCD0014FB59 /* REClassTVController.h */,
+				1DDDE49F200CFFCD0014FB59 /* REClassTVController.m */,
+				1D643CAE200D72F20028379A /* REMethodTVController.h */,
+				1D643CAF200D72F20028379A /* REMethodTVController.m */,
+				1D643CB12010E5900028379A /* REPropertyTVController.h */,
+				1D643CB22010E5900028379A /* REPropertyTVController.m */,
+			);
+			name = "Reverse Engineering";
+			sourceTree = "<group>";
+		};
+		1D643CAC200D72B70028379A /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D8D720069670001B06D2 /* AppDelegate.h */,
+				1D41D8D820069670001B06D2 /* AppDelegate.m */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		1D643CAD200D72F20028379A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D41D9112006998D001B06D2 /* Main.storyboard */,
+				1D41D8E520069670001B06D2 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		1D643CB8201107A50028379A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D643CB9201107A50028379A /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D41D8D320069670001B06D2 /* FWLR Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D41D90320069671001B06D2 /* Build configuration list for PBXNativeTarget "FWLR Tool" */;
+			buildPhases = (
+				1D41D8D020069670001B06D2 /* Sources */,
+				1D41D8D120069670001B06D2 /* Frameworks */,
+				1D41D8D220069670001B06D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FWLR Tool";
+			productName = "Lecture 2";
+			productReference = 1D41D8D420069670001B06D2 /* FWLR Tool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D41D8EE20069671001B06D2 /* FWLR ToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D41D90620069671001B06D2 /* Build configuration list for PBXNativeTarget "FWLR ToolTests" */;
+			buildPhases = (
+				1D41D8EB20069671001B06D2 /* Sources */,
+				1D41D8EC20069671001B06D2 /* Frameworks */,
+				1D41D8ED20069671001B06D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D41D8F120069671001B06D2 /* PBXTargetDependency */,
+			);
+			name = "FWLR ToolTests";
+			productName = "Lecture 2Tests";
+			productReference = 1D41D8EF20069671001B06D2 /* FWLR ToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D41D8F920069671001B06D2 /* FWLR ToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D41D90920069671001B06D2 /* Build configuration list for PBXNativeTarget "FWLR ToolUITests" */;
+			buildPhases = (
+				1D41D8F620069671001B06D2 /* Sources */,
+				1D41D8F720069671001B06D2 /* Frameworks */,
+				1D41D8F820069671001B06D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D41D8FC20069671001B06D2 /* PBXTargetDependency */,
+			);
+			name = "FWLR ToolUITests";
+			productName = "Lecture 2UITests";
+			productReference = 1D41D8FA20069671001B06D2 /* FWLR ToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D41D8CC20069670001B06D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Jailed Inc";
+				TargetAttributes = {
+					1D41D8D320069670001B06D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
+					};
+					1D41D8EE20069671001B06D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D41D8D320069670001B06D2;
+					};
+					1D41D8F920069671001B06D2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D41D8D320069670001B06D2;
+					};
+				};
+			};
+			buildConfigurationList = 1D41D8CF20069670001B06D2 /* Build configuration list for PBXProject "FWLR Tool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D41D8CB20069670001B06D2;
+			productRefGroup = 1D41D8D520069670001B06D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D41D8D320069670001B06D2 /* FWLR Tool */,
+				1D41D8EE20069671001B06D2 /* FWLR ToolTests */,
+				1D41D8F920069671001B06D2 /* FWLR ToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D41D8D220069670001B06D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41D9122006998D001B06D2 /* Main.storyboard in Resources */,
+				1D41D8E720069670001B06D2 /* LaunchScreen.storyboard in Resources */,
+				1D41D8E420069670001B06D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41D8ED20069671001B06D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41D8F820069671001B06D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D41D8D020069670001B06D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DDDE4A1200CFFCD0014FB59 /* REClassTVController.m in Sources */,
+				1D41D8E220069670001B06D2 /* Lecture_2.xcdatamodeld in Sources */,
+				1D643CB62010E7B90028379A /* ClassTVController.m in Sources */,
+				1DDDE4A4200D08540014FB59 /* APIManager.m in Sources */,
+				1D643CB0200D72F20028379A /* REMethodTVController.m in Sources */,
+				1D41D8DC20069670001B06D2 /* PFWTVController.m in Sources */,
+				1D643CB32010E5900028379A /* REPropertyTVController.m in Sources */,
+				1D2CF6772006A26D007A1892 /* LTVController.m in Sources */,
+				1D2CF67A2006A53A007A1892 /* MainViewController.m in Sources */,
+				1D41D8EA20069670001B06D2 /* main.m in Sources */,
+				1D2CF6742006A206007A1892 /* FWTVController.m in Sources */,
+				1D41D8D920069670001B06D2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41D8EB20069671001B06D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41D8F420069671001B06D2 /* Lecture_2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D41D8F620069671001B06D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D41D8FF20069671001B06D2 /* Lecture_2UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D41D8F120069671001B06D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D41D8D320069670001B06D2 /* FWLR Tool */;
+			targetProxy = 1D41D8F020069671001B06D2 /* PBXContainerItemProxy */;
+		};
+		1D41D8FC20069671001B06D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D41D8D320069670001B06D2 /* FWLR Tool */;
+			targetProxy = 1D41D8FB20069671001B06D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D41D8E520069670001B06D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D41D8E620069670001B06D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D41D90120069671001B06D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D41D90220069671001B06D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D41D90420069671001B06D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FWLR Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32A58HRQW6;
+				INFOPLIST_FILE = "Lecture 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.jailed.FWLRTool-nodev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D41D90520069671001B06D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "FWLR Tool.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32A58HRQW6;
+				INFOPLIST_FILE = "Lecture 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.jailed.FWLRTool-nodev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D41D90720069671001B06D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = "Lecture 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.jailed.Lecture-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWLR Tool.app/FWLR Tool";
+			};
+			name = Debug;
+		};
+		1D41D90820069671001B06D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = "Lecture 2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.jailed.Lecture-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FWLR Tool.app/FWLR Tool";
+			};
+			name = Release;
+		};
+		1D41D90A20069671001B06D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = "Lecture 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.jailed.Lecture-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lecture 2";
+			};
+			name = Debug;
+		};
+		1D41D90B20069671001B06D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 376SZ86J7X;
+				INFOPLIST_FILE = "Lecture 2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ml.jailed.Lecture-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lecture 2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D41D8CF20069670001B06D2 /* Build configuration list for PBXProject "FWLR Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41D90120069671001B06D2 /* Debug */,
+				1D41D90220069671001B06D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D41D90320069671001B06D2 /* Build configuration list for PBXNativeTarget "FWLR Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41D90420069671001B06D2 /* Debug */,
+				1D41D90520069671001B06D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D41D90620069671001B06D2 /* Build configuration list for PBXNativeTarget "FWLR ToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41D90720069671001B06D2 /* Debug */,
+				1D41D90820069671001B06D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D41D90920069671001B06D2 /* Build configuration list for PBXNativeTarget "FWLR ToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D41D90A20069671001B06D2 /* Debug */,
+				1D41D90B20069671001B06D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D41D8E020069670001B06D2 /* Lecture_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D41D8E120069670001B06D2 /* Lecture_2.xcdatamodel */,
+			);
+			currentVersion = 1D41D8E120069670001B06D2 /* Lecture_2.xcdatamodel */;
+			path = Lecture_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D41D8CC20069670001B06D2 /* Project object */;
+}
