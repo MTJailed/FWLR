@@ -4,7 +4,7 @@
 //
 //  Created by Sem Voigtländer on 18/01/2018.
 //  Copyright © 2018 Jailed Inc. All rights reserved.
-//
+//  Contains parts of S1guza's code
 
 #import "IOEnumerator.h"
 #import "IOKit/IOKitLib.h"
